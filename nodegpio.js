@@ -17,5 +17,11 @@ module.exports={
         },
         low:function(number,callback){
                 this.write(number,0,callback);
+        },clear:function(number,callback){
+                fs.writeFile(path+'unexport',number,function(){
+                        if(typeof(callback)==='function'){
+                                callback();
+                        }
+                });
         }
 }
