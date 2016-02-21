@@ -1,6 +1,6 @@
 {
   "name": "nodegpio",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "description": "the gpio lib for raspberry pi",
   "main": "nodegpio.js",
   "scripts": {
